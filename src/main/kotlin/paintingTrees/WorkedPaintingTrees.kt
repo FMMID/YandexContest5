@@ -1,3 +1,5 @@
+package paintingTrees
+
 class WorkedPaintingTrees {
 
     fun getPaintedTreesCount(vStartPoint: Int, vAllowDistance: Int, mStartPoint: Int, mAllowDistance: Int): Int {
