@@ -1,8 +1,7 @@
 fun main() {
-    val numOfLines = readLine()!!.toInt()
-    val listOfLinesNeededSpaces = mutableListOf<Int>()
+    val matrix: MutableList<CharArray> = mutableListOf()
 
-    for (index in 0 until numOfLines) {
-        listOfLinesNeededSpaces.add(readLine()!!.toInt())
+    repeat(8) {
+        matrix.add(readLine()!!.trim().toCharArray())
     }
 }
