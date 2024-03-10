@@ -1,4 +1,4 @@
-package paintingTrees
+package firstContext.paintingTrees
 
 class WorkedPaintingTrees {
 

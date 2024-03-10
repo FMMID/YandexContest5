@@ -1,3 +1,5 @@
+package firstContext
+
 class RunningStadium {
 
     fun calculateTimeRunning(stadiumLength: Long, kirill: Runner, anton: Runner): RunningResult {

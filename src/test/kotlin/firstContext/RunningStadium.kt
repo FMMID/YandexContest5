@@ -1,5 +1,8 @@
-import RunningStadium.Runner
-import RunningStadium.RunningResult
+package firstContext
+
+import BaseTest
+import firstContext.RunningStadium.Runner
+import firstContext.RunningStadium.RunningResult
 import io.kotest.datatest.withData
 import io.kotest.matchers.equals.shouldBeEqual
 

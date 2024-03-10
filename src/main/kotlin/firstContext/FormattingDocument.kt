@@ -1,3 +1,5 @@
+package firstContext
+
 import java.io.BufferedReader
 import java.io.File
 import java.io.FileReader
@@ -315,11 +317,11 @@ class FormattingDocument {
 
         sealed class Image(val width: Long, val height: Long) : DocElement {
 
-            class EmbeddedImage(width: Long, height: Long) : DocElement.Image(width, height)
+            class EmbeddedImage(width: Long, height: Long) : Image(width, height)
 
-            class SurroundedImage(width: Long, height: Long) : DocElement.Image(width, height)
+            class SurroundedImage(width: Long, height: Long) : Image(width, height)
 
-            class FloatingImage(width: Long, height: Long, val dx: Long, val dy: Long) : DocElement.Image(width, height)
+            class FloatingImage(width: Long, height: Long, val dx: Long, val dy: Long) : Image(width, height)
         }
 
         data object NewParagraph : DocElement

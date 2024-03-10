@@ -1,5 +1,7 @@
-import FootballCommentator.FirstMatchPlace
-import FootballCommentator.Match
+package firstContext
+
+import firstContext.FootballCommentator.FirstMatchPlace
+import firstContext.FootballCommentator.Match
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.datatest.withData
 import io.kotest.matchers.equals.shouldBeEqual

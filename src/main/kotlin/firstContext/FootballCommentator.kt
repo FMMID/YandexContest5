@@ -1,3 +1,5 @@
+package firstContext
+
 class FootballCommentator {
     fun calculateNeededScore(firstMatch: Match, secondMatch: Match, firstMatchPlace: FirstMatchPlace): Int {
 

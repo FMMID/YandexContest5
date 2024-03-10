@@ -1,5 +1,8 @@
-import Schedule.Holiday
-import Schedule.ScheduleResult
+package firstContext
+
+import BaseTest
+import firstContext.Schedule.Holiday
+import firstContext.Schedule.ScheduleResult
 import io.kotest.datatest.withData
 import io.kotest.matchers.equals.shouldBeEqual
 import java.time.DayOfWeek

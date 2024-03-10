@@ -1,3 +1,5 @@
+package firstContext
+
 class MishaMath {
     fun getOperationSequence(arrayOfNumbers: Array<Long>): String {
         val resultBuilder = StringBuilder()

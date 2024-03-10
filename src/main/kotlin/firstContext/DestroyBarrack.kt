@@ -1,3 +1,5 @@
+package firstContext
+
 import kotlin.math.abs
 
 class DestroyBarrack {
