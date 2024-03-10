@@ -1,0 +1,2 @@
+100 2 3
+(image dx=90 dy=11 height=100 width=20 layout=floating)
