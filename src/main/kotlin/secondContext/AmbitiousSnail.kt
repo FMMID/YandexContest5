@@ -1,3 +1,5 @@
+package secondContext
+
 class AmbitiousSnail {
 
     private val berryComparator = Comparator<Berry> { localMaxBerry, berry ->

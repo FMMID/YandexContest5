@@ -1,3 +1,5 @@
+package secondContext
+
 class RopeTask() {
 
     fun calculateMinRope(listOfRopes: List<Long>): Long {

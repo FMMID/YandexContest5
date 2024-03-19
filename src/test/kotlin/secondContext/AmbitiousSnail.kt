@@ -1,9 +1,7 @@
 package secondContext
 
-import AmbitiousSnail
-import AmbitiousSnail.Berry
-import AmbitiousSnail.ResultHeight
-import BaseTest
+import secondContext.AmbitiousSnail.Berry
+import secondContext.AmbitiousSnail.ResultHeight
 import io.kotest.datatest.withData
 import io.kotest.matchers.equals.shouldBeEqual
 

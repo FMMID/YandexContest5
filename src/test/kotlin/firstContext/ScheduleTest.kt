@@ -1,6 +1,6 @@
 package firstContext
 
-import BaseTest
+import secondContext.BaseTest
 import firstContext.Schedule.Holiday
 import firstContext.Schedule.ScheduleResult
 import io.kotest.datatest.withData

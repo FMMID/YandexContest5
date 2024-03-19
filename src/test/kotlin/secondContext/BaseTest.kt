@@ -1,3 +1,5 @@
+package secondContext
+
 import io.kotest.core.spec.style.FunSpec
 
 abstract class BaseTest<TEST_CLASS> : FunSpec() {

@@ -1,3 +1,5 @@
+package secondContext
+
 fun calculateSections(listOfNumber: List<Long>): Pair<Int, String> {
     val listOfSections = arrayListOf<Long>()
     var sizeOfSections = 0

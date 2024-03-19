@@ -1,3 +1,5 @@
+package secondContext
+
 class FishSeller {
 
     fun calculateMaxProfit(fishSpoilageDays: Long, listOfFishPrice: List<Long>): Long {

@@ -1,3 +1,5 @@
+package secondContext
+
 class Chessboard() {
 
     fun calculateFigurePerimeter(listOfPoints: List<Coordinate>): Long {

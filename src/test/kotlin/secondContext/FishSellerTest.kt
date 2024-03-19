@@ -1,7 +1,5 @@
 package secondContext
 
-import BaseTest
-import FishSeller
 import io.kotest.datatest.withData
 import io.kotest.matchers.equals.shouldBeEqual
 

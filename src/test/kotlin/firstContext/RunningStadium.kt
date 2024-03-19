@@ -1,6 +1,6 @@
 package firstContext
 
-import BaseTest
+import secondContext.BaseTest
 import firstContext.RunningStadium.Runner
 import firstContext.RunningStadium.RunningResult
 import io.kotest.datatest.withData
