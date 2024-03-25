@@ -1,3 +1,5 @@
+package thirdContext
+
 fun main() {
     val trie = Trie()
     val dictionary = readLine()!!.split(' ')

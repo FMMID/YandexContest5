@@ -1,3 +1,5 @@
+package thirdContext
+
 fun main() {
     val firstStringHashMap = hashMapOf<Char, Int>()
 
